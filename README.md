@@ -1,7 +1,7 @@
-Petshop HTML
-Este é um site de petshop estático construído usando HTML, CSS e algumas bibliotecas externas.
+# Petshop HTML
 
-Descrição
+
+# Descrição
 O site oferece informações sobre os serviços oferecidos pelo petshop, incluindo banho e tosa, consulta veterinária, hospedagem e passeio. Além disso, inclui uma seção de avaliações dos clientes e uma opção para deixar novas avaliações.
 
 Tecnologias Utilizadas
