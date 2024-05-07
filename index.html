@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Petshop html</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <nav id="navbar">
+            <a href="#" class="logo">
+              <img src="img/icon.png" alt="Logo do Petshop">
+            </a>
+            <nav>
+              <ul id="nav_list">
+                <li class="nav-item"><a href="#home">Início</a></li>
+                <li class="nav-item"><a href="#services">Serviços</a></li>
+                <li class="nav-item"><a href="#testimonials">Avaliações</a></li>
+              </ul>
+            </nav>
+            <button class="btn-default" aria-label="Contato">
+              <i class="fa-brands fa-square-whatsapp"> Contato</i>
+            </button>
+            <button id="mobile_btn" aria-label="Menu" aria-haspopup="true">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </nav>
+        </div>
+      </header>
+</header>
+<section id="home">
+  <div class="hero">
+      <div class="hero-text">
+          <h1>Bem-vindo ao Petshop HTML</h1>
+          <p>O melhor cuidado para o seu pet está aqui!</p>
+      </div>
+      <div class="slideshow-container">
+          <button class="prev-btn">&#8249;</button>
+          <div class="image-slide">
+              <img class="scroll-image" src="img/pexels-lum3n-44775-406014.jpg" alt="Imagem 1">
+          </div>
+          <div class="image-slide">
+              <img class="scroll-image" src="img/pexels-madbyte-36372.jpg" alt="Imagem 2">
+          </div>
+          <div class="image-slide">
+              <img class="scroll-image" src="img/pexels-pixabay-164186.jpg" alt="Imagem 3">
+          </div>
+          <button class="next-btn">&#8250;</button>
+      </div>
+  </div>
+</section>
+
+
+
+<section id="services">
+    <div class="service-header">
+      <h2>Nossos Serviços</h2>
+    </div>
+    <div class="service-grid">
+      <div class="service-item">
+        <img src="img/banho.jpg" alt="Banho e Tosa">
+        <h3>Banho e Tosa</h3>
+        <p>Deixe seu pet limpo e feliz com nossos serviços de banho e tosa.</p>
+        <ul>
+          <li>Banho e Tosa Pequeno - R$ 30,00</li>
+          <li>Banho e Tosa Médio - R$ 40,00</li>
+          <li>Banho e Tosa Grande - R$ 50,00</li>
+        </ul>
+      </div>
+      <div class="service-item">
+        <img src="img/consulta.jpg" alt="Consulta Veterinária">
+        <h3>Consulta Veterinária</h3>
+        <p>Cuidados médicos com profissionais qualificados para saúde do seu animal.</p>
+        <ul>
+          <li>Consulta Veterinária - R$ 80,00</li>
+          <li>Vacinação - R$ 50,00</li>
+          <li>Exames Laboratoriais - R$ 120,00</li>
+        </ul>
+      </div>
+      <div class="service-item">
+        <img src="img/images.jpg" alt="Hospedagem">
+        <h3>Hospedagem</h3>
+        <p>Oferecemos um ambiente seguro e confortável para seu pet enquanto você está fora.</p>
+        <ul>
+          <li>Hospedagem Padrão - R$ 50,00/dia</li>
+          <li>Hospedagem VIP - R$ 70,00/dia</li>
+        </ul>
+      </div>
+      <div class="service-item">
+        <img src="img/passeio.jpg" alt="Passeio">
+        <h3>Passeio</h3>
+        <p>Proporcionamos passeios divertidos e enriquecedores para o seu pet.</p>
+        <ul>
+          <li>Passeio Individual - R$ 20,00/hora</li>
+          <li>Passeio em Grupo - R$ 15,00/hora</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="products">
+    <div class="product">
+      <img src="img/comida.jpg" alt="Ração">
+      <div class="product-info">
+        <h3>Ração</h3>
+        <ul>
+          <li data-size="Pequeno">R$ 20,00</li>
+          <li data-size="Médio">R$ 30,00</li>
+          <li data-size="Grande">R$ 40,00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="product">
+      <img src="img/shampo.jpg" alt="Shampoo">
+      <div class="product-info">
+        <h3>Shampoo</h3>
+        <ul>
+          <li data-size="Pequeno">R$ 15,00</li>
+          <li data-size="Médio">R$ 25,00</li>
+          <li data-size="Grande">R$ 35,00</li>
+        </ul>
+      </div>
+    </div>
+   
+  </section>
+  
+
+
+
+
+<section id="testimonials">
+    <h2>Avaliações</h2>
+
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <img src="img/avatar.png" alt="Avatar">
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p>Excelente atendimento! Meu pet adorou o serviço.</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <img src="img/avatar.png" alt="Avatar">
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <p>Serviço impecável! Recomendo a todos.</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <img src="img/avatar.png" alt="Avatar">
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="half-star">&#9733;</span>
+            </div>
+            <p>Bom atendimento, mas algumas melhorias podem ser feitas.</p>
+        </div>
+    </div>
+
+   
+
+
+    <div class="user-input">
+        <h3>Deixe sua avaliação:</h3>
+        <form>
+            <input type="text" placeholder="Seu nome">
+            <textarea placeholder="Seu comentário"></textarea>
+            <div class="stars">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+
+
+
+
+</section>
+
+    
+
+
+
+
+
+
+</main>
+<footer>
+    <p>© 2024 Petshop html. Todos os direitos reservados.</p>
+    <div class="social-media">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+</footer>
+<script src="src/javascript/script.js"></script>
+</body>
+</html>

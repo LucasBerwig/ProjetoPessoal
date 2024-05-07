@@ -1,0 +1,49 @@
+#services {
+  background-image: url('../img/background3.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.service-header {
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+}
+
+.service-item {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-neutral-0);
+}
+
+.service-item h3 {
+  color: var(--color-primary-4);
+}
+
+.service-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-item li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-neutral-1);
+}
+
+.service-item li:last-child {
+  border-bottom: none;
+}
